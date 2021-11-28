@@ -1,0 +1,27 @@
+.main_style{
+	-fx-background-color: #1cfbfb7a;
+}
+.bu_same_style{
+	-fx-background-color: #02d0ff61;
+	-fx-min-width: 100%;
+	
+}
+.bu_same_style:hover{
+	-fx-background-color: #02d0ff;
+}
+.bu_same_style:pressed{
+	-fx-background-color: #02d0ff21;
+}
+.add_img_style{
+	-fx-background-color: #02d0ff82;
+}
+.add_img_style:hover{
+	-fx-background-color:#02d0ff;
+}
+.add_img_style:pressed{
+	-fx-background-color:#02d0ff21;
+}
+.test{
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: 100% 100%;
+}

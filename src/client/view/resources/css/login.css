@@ -1,0 +1,30 @@
+.login_bg{
+	-fx-background-image: url(../images/bg3.jpg);
+	-fx-background-size:100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+.log_in_style{
+	-fx-background-color:#15dc5b;
+	-fx-border-style:none ;
+	-fx-font-family: "KaiTi";
+	-fx-font: 16 em;
+	-fx-font-weight: bold;
+	-fx-min-width: 300px;
+}
+.find_pw_style{
+	-fx-background-color:#15dc5b;
+	-fx-border-style:none ;
+	-fx-border-style:none ;
+	-fx-font-family: "KaiTi";
+}
+.reg_style{
+	-fx-background-color:#15dc5b;
+	-fx-border-style:none ;
+	-fx-font-family: "KaiTi";
+}
+.log_in_style:hover,.find_pw_style:hover,.reg_style:hover{
+	-fx-background-color:#2db55d;
+}
+.log_in_style:pressed,.find_pw_style:pressed,.reg_style:pressed{
+	-fx-background-color: #06ea8cfa;
+}

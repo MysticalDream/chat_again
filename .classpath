@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/lib/javafx.base.jar" sourcepath="src/lib/src.zip"/>
+	<classpathentry kind="lib" path="src/lib/javafx.controls.jar" sourcepath="src/lib/src.zip"/>
+	<classpathentry kind="lib" path="src/lib/javafx.fxml.jar" sourcepath="src/lib/src.zip"/>
+	<classpathentry kind="lib" path="src/lib/javafx.graphics.jar" sourcepath="src/lib/src.zip"/>
+	<classpathentry kind="lib" path="src/lib/javafx.media.jar" sourcepath="src/lib/src.zip"/>
+	<classpathentry kind="lib" path="src/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="src/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="src/lib/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="src/lib/mysql-connector-java-8.0.24.jar"/>
+	<classpathentry kind="lib" path="src/lib/org.eclipse.fx.ide.css.jfx8_3.7.0.202010120832.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

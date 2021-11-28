@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" maxHeight="300.0" maxWidth="450.0" prefHeight="300.0" prefWidth="450.0" styleClass="login_bg" stylesheets="@../resources/css/login.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.view.login.LoginViewController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints prefHeight="40.0" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints prefHeight="30.0" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints maxHeight="10.0" />
+      <RowConstraints />
+      <RowConstraints maxHeight="10.0" />
+      <RowConstraints prefHeight="30.0" />
+   </rowConstraints>
+   <children>
+      <TextField fx:id="account" minHeight="30.0" opacity="0.8" promptText="账号" style="-fx-background-color: #0af4ff; -fx-font-weight: bold;" />
+      <PasswordField fx:id="passWord" minHeight="30.0" opacity="0.8" promptText="密码" style="-fx-background-color: #0af4ff; -fx-font-weight: bold;" GridPane.rowIndex="3" />
+      <HBox GridPane.rowIndex="6">
+         <children>
+            <CheckBox fx:id="remember" mnemonicParsing="false" text="记住密码" textFill="#7bff00" />
+            <Button mnemonicParsing="false" onAction="#handleClickFindPassWord" opacity="0.8" styleClass="find_pw_style" text="找回密码">
+               <HBox.margin>
+                  <Insets left="160.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#handleClickLogin" opacity="0.8" styleClass="log_in_style" text="登录" GridPane.rowIndex="8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.9333333333333333" startY="0.4222222464425223">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.3499999940395355" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button mnemonicParsing="false" onAction="#handleClickRegister" opacity="0.8" styleClass="reg_style" text="注册账号" GridPane.rowIndex="10">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="tip1" textFill="RED" visible="false" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="tip2" textFill="RED" visible="false" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label GridPane.rowIndex="7" />
+      <Label GridPane.rowIndex="9" />
+   </children>
+</GridPane>

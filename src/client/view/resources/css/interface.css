@@ -1,0 +1,111 @@
+.send_style{
+	-fx-background-color:rgb(245,245,245);
+}
+.send_style:hover{
+	-fx-background-color: #00CD66;
+}
+.send_style:pressed{
+	-fx-background-color: #00FF00;
+}
+/*分割线 */
+.split-pane *.split-pane-divider{
+	-fx-padding: 0 1 0 1;
+	-fx-background-color: transparent;
+}
+/*输入框 */
+.text-area{
+	-fx-background-insets: 0;
+	-fx-background-color: rgb(255,255,255);
+	-fx-font-weight: bold;
+}
+.text-area .scroll-bar:vertical{
+	-fx-background-color: transparent;
+    -fx-background-radius: 10;
+}
+.text-area .increment-button{
+	-fx-background-color: transparent;
+}
+.text-area .decrement-button{
+	-fx-background-color: transparent;
+}
+.text-area .decrement-arrow{
+	-fx-background-color: transparent;
+}
+.text-area .increment-arrow{
+	-fx-background-color: transparent;
+}
+.text-area .content{
+	-fx-background-color: rgb(255,255,255);
+}
+.text-area:focused{
+	-fx-background-color:rgb(255,255,255);
+}
+/*表情 */
+.small{
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: cover ;
+	-fx-background-color: transparent;
+}
+.emoji{
+	-fx-background-image: url(../images/Emoji.png);
+}
+.emoji:hover{
+	-fx-background-image: url(../images/Emoji_.png);
+}
+.emoji:pressed{
+	-fx-background-image: url(../images/Emoji1.png);
+}
+.file{
+	-fx-background-image: url(../images/file.png);
+}
+.file:hover{
+	-fx-background-image: url(../images/file_.png);
+}
+.file:pressed{
+	-fx-background-image: url(../images/file1.png);
+}
+/*菜单按钮 */
+.menu-button{
+	-fx-background-size: contain ;
+	-fx-background-repeat: no-repeat ;
+}
+/*去掉菜单按钮小三角 */
+.menu-button .arrow{
+	-fx-background-color: transparent;
+}
+/*添加好友图标 */
+.add_friend{
+	-fx-background-color: rgb(46,46,46);
+	-fx-background-size: contain ;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-image: url(../images/addfri.png);
+	-fx-background-position: center ;
+}
+/*聊天图标 */
+.we_chat{
+	-fx-background-color: rgb(46,46,46);
+	-fx-background-size: contain ;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-image: url(../images/info.png);
+	-fx-background-position: center ;
+}
+/*更多图标和样式*/
+.more{
+	-fx-background-color: rgb(46,46,46);
+	-fx-background-image: url(../images/more.png);
+	-fx-background-position: center ;
+}
+.more:pressed{
+	-fx-background-image: url(../images/moref.png);
+}
+/*搜索 */
+.search{
+	-fx-background-image: url(../images/search.png);
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: center ;
+	-fx-background-color: white;
+}
+.search:pressed{
+	-fx-background-image: url(../images/searchf.png);
+}
