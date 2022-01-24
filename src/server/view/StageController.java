@@ -95,7 +95,6 @@ public class StageController {
 	/**
 	 * 显示Stage并关闭对应窗口
 	 * 
-	 * @param name
 	 * @param closeName
 	 * @return <br/>
 	 *         <b>Date:</b> 2021年6月7日 下午10:46:59

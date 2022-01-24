@@ -24,105 +24,26 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="javafx.base.jar">
+      <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx.base.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/src/lib/src.zip!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="javafx.controls.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx.controls.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/src/lib/src.zip!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="javafx.fxml.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx.fxml.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/src/lib/src.zip!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="javafx.graphics.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx.graphics.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/src/lib/src.zip!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="javafx.media.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx.media.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/src/lib/src.zip!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="javafx.swing.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx.swing.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/mysql-connector-java-8.0.24.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="javafx.web.jar">
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="lib">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx.web.jar!/" />
+          <root url="file://$MODULE_DIR$/lib/javafx/lib" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/javafx/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/javafx/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib/javafx/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="javafx-swt.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/javafx-swt.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="mysql-connector-java-8.0.24.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/mysql-connector-java-8.0.24.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="org.eclipse.fx.ide.css.jfx8_3.7.0.202010120832.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/lib/org.eclipse.fx.ide.css.jfx8_3.7.0.202010120832.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

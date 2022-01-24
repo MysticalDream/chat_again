@@ -125,8 +125,8 @@ public class Request {
 	/**
 	 * 添加好友
 	 * 
-	 * @param account1
-	 * @param account2 <br/>
+	 * @param me
+	 * @param friend <br/>
 	 *                 <b>Date:</b> 2021年6月12日 下午11:16:59
 	 */
 	public static void addFriend(User me, User friend) {
